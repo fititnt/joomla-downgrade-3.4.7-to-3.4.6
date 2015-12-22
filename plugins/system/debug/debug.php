@@ -393,7 +393,7 @@ class PlgSystemDebug extends JPlugin
 	{
 		if (!$session)
 		{
-			$session = JFactory::getSession()->getData();
+			$session = $_SESSION;
 		}
 
 		$html = array();
